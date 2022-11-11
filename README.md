@@ -26,14 +26,7 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ahmadaw
   Description: Auto rename paired HTML/XML tag  
   Version: 0.1.10
   Publisher: Jun Han  
-  VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry. auto-rename-tag
-
-- Name: Auto Rename Tag  
-  Id: formulahendry.auto-rename-tag  
-  Description: Auto rename paired HTML/XML tag  
-  Version: 0.1.10  
-  Publisher: Jun Han  
-  VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry. auto-rename-tag
+  VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
 
 - Name: Color Highlight  
   Id: naumovs.color-highlight  
