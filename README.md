@@ -4,11 +4,56 @@
 - Vantages do React JS
 - JavaScript e EcmaScript
 - npm e npx
-- create-react-app
+- create-react-app (npx create-react-app my-app)
 - Como rodar uma aplicação React JS
 - Estrutura da aplicação (node_modules, public, App, index.html, index.js, ...)
-- Funcionamento de uma aplicação React JS (SPA)
+- Funcionamento de uma aplicação React JS (SPA - Single Page Application)
 - Importância do JavaScript para o React
+
+# Aula 2
+
+- Limpeza do projeto inicial com create-react-app
+- JSX
+  - O que é JSX?
+  - React Fragment
+  - Expressões
+    - Soma
+    - Execução de funções
+    - Map
+  - Condicionais
+    - Condicional ternária
+    - Condicional AND com &&
+    - Atributos
+    - Lista
+    - Keys em listas
+- Tipos de exportação de componente
+  - default export
+  - named export
+- React createElement
+  - Mostrar a transformação do JSX em JS
+- Componentes
+  - Composição
+  - Propriedades (props)
+- Hooks
+  - useState
+    - Valor padrão
+    - Mudança no valor da variável
+
+## Atividade:
+
+Implementar uma listagem de cursos, com colunas de Nome, Descrição e Instrutor.
+
+- Utilizar conceito de componentes.
+- Utilizar conceito de listas com keys.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+---
 
 ## Tema:
 
