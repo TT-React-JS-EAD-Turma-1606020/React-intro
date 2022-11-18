@@ -46,6 +46,14 @@ Implementar uma listagem de cursos, com colunas de Nome, Descrição e Instrutor
 - Utilizar conceito de componentes.
 - Utilizar conceito de listas com keys.
 
+# Aula 3
+
+- useEffect
+  - Função
+  - Array de estados assistidos
+  - Tomar cuidado ao setar um state dentro de um useEffect se ele estiver no array de dependências
+- Inicio do desenvolvimento da aplicação de filmes
+
 <br />
 <br />
 <br />
