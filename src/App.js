@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { Course } from './components/Course';
+import { Title } from './components/Title';
 
 const name = 'Eliezer'
 
@@ -10,13 +11,28 @@ const courses = ['React JS', "JavaScript", 'CSS', 'JS e CSS Pro']
 
 function App() {
   const [count, setCount] = useState(0);
+  const [countIsPositive, setCountIsPositive] = useState(true)
 
   const handleClickButton = () => {
     alert('Botão clicado')
   }
 
+  useEffect(() => {
+    console.log('Rodando verificação')
+
+    if (count < 0) {
+      setCountIsPositive(false)
+    } else {
+      setCountIsPositive(true)
+    }
+  }, [count]);
+
   return (
     <>
+      <Title />
+
+      <Title isRed={true} />
+
       <h2>Eventos:</h2>
       <button onClick={handleClickButton}>Click-me</button>
 
@@ -32,6 +48,16 @@ function App() {
 
         <button onClick={() => setCount(count - 1)}>Remover</button>
         <button onClick={() => setCount(count + 1)}>Adicionar</button>
+      </div>
+
+      <hr />
+
+      <h2>useEffect:</h2>
+
+      <div>
+        <span>
+          Count é <strong>{countIsPositive ? 'positivo' : 'negativo'}</strong>
+        </span>
       </div>
 
       <hr />
@@ -72,6 +98,7 @@ function App() {
           })}
         </ul>
       </div>
+
     </>
   );
 }

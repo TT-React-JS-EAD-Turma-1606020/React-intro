@@ -1,5 +1,10 @@
-export const Title = () => {
+import './styles.css'
+
+export const Title = ({ isRed }) => {
+
+  console.log(isRed)
+
   return (
-    <h1>Boa noite turma!</h1>
+    <h1 className={isRed ? 'red' : ''}>Boa noite turma!</h1>
   )
 }
